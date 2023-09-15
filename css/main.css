@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+}
+
+section{
+    margin: 25px 100px 25px 100px;
+    padding-top: 200px;
+    padding-bottom: 225px;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    line-height: 2;
+}
+
+article h4{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    margin: 50px;
+}
+
+footer a{
+    margin: 50px;
+}
