@@ -9,7 +9,7 @@ header{
     padding: 20px;
     text-align: center;
 
-    /* background-color: green;
+    /* background-color: lightgrey;
     border: 3px solid grey; */
 }
 
@@ -20,16 +20,16 @@ nav a{
     font-family: 'Play', sans-serif;
 }
 
-section{
+/* section{
     margin: 1% 5% 1% 5%;
-}
+} */
 
 footer{
     text-align: center;
-    margin: 50px;
+    margin: 50px 0px;
 
-    /*background-color: green;
-    border: 3px solid grey;*/
+    /* background-color: lightgray;
+    border: 3px solid grey; */
 }
 
 footer a{
@@ -39,23 +39,48 @@ footer a{
     font-family: 'Play', sans-serif;
 }
 
+
 /*home*/
+#hide{
+    opacity: 0%;
+}
+
+#home{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    margin: 0;
+    /* text-align: center; */
+    flex-wrap: wrap;
+}
+
+#bio{
+    width: 35%;
+}
+
+#homenav{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
 p{
-    text-align: center;
-    font-size: x-large;
+    text-align: justify;
+    font-size: 12px;
     line-height: 2;
     color: #B1599B;
     font-family: 'Dosis', sans-serif;
 }
 
+
 /*pg 2*/
 h1{
-    padding: 2%;
+    padding: 3%;
     color: #B1599B;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
 
-    /*background-color: white;*/
+    /* background-color: white; */
 }
 
 section{
@@ -66,8 +91,8 @@ section{
     width: 80%;
     flex-wrap: wrap;
 
-    /*background-color: white;
-    border: 3px solid grey;*/
+    /* background-color: lightblue;
+    border: 3px solid grey; */
 }
 
 .subtitle{
@@ -75,6 +100,7 @@ section{
     color: #1F65D6;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
+    font-size: 25px;
 }
 
 img{
@@ -83,24 +109,24 @@ img{
 
 .info{
     font-size: 15px;
-
 }
 
 .column{
     width: 30%;
 }
 
+
 /*pg 3*/
 #activity{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
     text-align: center;
     width: 80%;
     flex-wrap: wrap;
 
-    /*background-color: white;
-    border: 3px solid grey;*/
+    /* background-color: white;
+    border: 3px solid grey; */
 }
 
 #ad{
@@ -113,7 +139,6 @@ img{
 
 #sleep{
     display: flex;
-
 }
 
 #app{
