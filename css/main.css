@@ -1,44 +1,122 @@
 *{
     margin: 0;
+    background-color: #FAE3E3;
+    box-sizing: border-box;
+    /* insert backgorund gradient/image */
 }
 
 header{
     padding: 20px;
     text-align: center;
+
+    /* background-color: green;
+    border: 3px solid grey; */
 }
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: #5C5D67;
     margin: 50px;
-}
-
-h1{
-    margin: 50px;
-    text-align: center;
+    font-family: 'Play', sans-serif;
 }
 
 section{
-    margin: 25px 100px 25px 100px;
-    padding-top: 200px;
-    padding-bottom: 225px;
-}
-
-p{
-    text-align: center;
-    font-size: x-large;
-    line-height: 2;
-}
-
-article h4{
-    display: inline-block;
+    margin: 1% 5% 1% 5%;
 }
 
 footer{
     text-align: center;
     margin: 50px;
+
+    /*background-color: green;
+    border: 3px solid grey;*/
 }
 
 footer a{
-    margin: 50px;
+    margin: 25px;
+    text-decoration: none;
+    color: #5C5D67;
+    font-family: 'Play', sans-serif;
 }
+
+/*home*/
+p{
+    text-align: center;
+    font-size: x-large;
+    line-height: 2;
+    color: #B1599B;
+    font-family: 'Dosis', sans-serif;
+}
+
+/*pg 2*/
+h1{
+    padding: 2%;
+    color: #B1599B;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+
+    /*background-color: white;*/
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    flex-wrap: wrap;
+
+    /*background-color: white;
+    border: 3px solid grey;*/
+}
+
+.subtitle{
+    text-align: center;
+    color: #1F65D6;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+}
+
+.info{
+    font-size: 15px;
+
+}
+
+.column{
+    width: 30%;
+}
+
+/*pg 3*/
+#activity{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    flex-wrap: wrap;
+
+    /*background-color: white;
+    border: 3px solid grey;*/
+}
+
+#ad{
+    padding-right: 5%
+}
+
+#stack{
+    padding-left: 5%;
+}
+
+#sleep{
+    display: flex;
+
+}
+
+#app{
+    display: flex;
+}
+
