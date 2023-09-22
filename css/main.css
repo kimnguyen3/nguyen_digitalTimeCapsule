@@ -1,10 +1,14 @@
 *{
     margin: 0;
-    background-color: #FAE3E3;
+    /* background-color: #FFE1F2; */
+    
     box-sizing: border-box;
     /* insert backgorund gradient/image */
 }
 
+body{
+    background-image: radial-gradient(#FFFFFF, #F3E8EE, #FFBBE5);
+}
 header{
     padding: 20px;
     text-align: center;
@@ -14,9 +18,11 @@ header{
 }
 
 nav a{
+    display: inline-block;
+    justify-content: space-between;
     text-decoration: none;
     color: #5C5D67;
-    margin: 50px;
+    margin: 10px 50px;
     font-family: 'Play', sans-serif;
 }
 
@@ -41,37 +47,54 @@ footer a{
 
 
 /*home*/
-#hide{
-    opacity: 0%;
+header{
+    color:#B1599B;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 #home{
     display: flex;
     /* flex-direction: row; */
     justify-content: space-around;
-    margin: 0;
+    margin: 4.5% 0%;
     /* text-align: center; */
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #bio{
-    width: 35%;
+    width: 45%;
 }
 
 #homenav{
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
+    /* padding-top: 7%;
+    padding-left: 4%; */
+}
+
+#homep{
+    text-align: center;
+    margin-top: 5%;
 }
 
 p{
-    text-align: justify;
-    font-size: 12px;
+    text-align: left;
+    font-size: 14px;
     line-height: 2;
     color: #B1599B;
     font-family: 'Dosis', sans-serif;
-}
 
+    padding: 1% 5%;
+    background-color: #F3E8EE;
+    margin-bottom: 2%;
+    
+    border: 2px solid #B1599B;
+    border-radius: 10px;
+}
 
 /*pg 2*/
 h1{
@@ -105,37 +128,44 @@ section{
 
 img{
     width: 100%;
+    border-radius: 10px;
+    margin-top: 3%;
 }
 
 .info{
     font-size: 15px;
+    margin: 0% 5%;
 }
 
 .column{
     width: 30%;
+    
 }
 
+iframe{
+    padding-top: 3%;
+}
 
 /*pg 3*/
 #activity{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
     flex-wrap: wrap;
 
     /* background-color: white;
     border: 3px solid grey; */
 }
 
-#ad{
+/* #ad{
     padding-right: 5%
 }
 
 #stack{
     padding-left: 5%;
-}
+} */
 
 #sleep{
     display: flex;
