@@ -122,12 +122,14 @@ p{
 .pics{
     width: 25%;
     margin: 3%;
+    box-shadow: 0px 7px 10px #B1599B;
 }
 
 .pics2{
     width: 20%;
     margin: 0% 3%;
     max-height: 75%;
+    box-shadow: 0px 7px 10px #B1599B;
 }
 
 /*pg 2*/
