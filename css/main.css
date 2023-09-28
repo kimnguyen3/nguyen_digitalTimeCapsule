@@ -1,22 +1,17 @@
 *{
     margin: 0;
-    /* background-color: #FFE1F2; */
     
     box-sizing: border-box;
-    /* insert backgorund gradient/image */
 }
 
 body{
     background-image: radial-gradient(#FFFFFF, #F3E8EE, #FFBBE5);
 }
+
 header{
     padding: 10%;
     text-align: center;
-
-    /* background-color: lightgrey; */
-    /* border: 3px solid grey; */
 }
-
 
 nav a{
     display: inline-block;
@@ -39,9 +34,6 @@ nav a{
 footer{
     text-align: center;
     margin: 50px 0px;
-
-    /* background-color: lightgray;
-    border: 3px solid grey; */
 }
 
 footer a{
@@ -62,10 +54,8 @@ header{
 
 #home{
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     margin: 4.5% 0%;
-    /* text-align: center; */
     flex-wrap: wrap;
     align-items: center;
 }
@@ -80,8 +70,6 @@ header{
     display: flex;
     flex-direction: column;
     width: 40%;
-    /* padding-top: 7%;
-    padding-left: 4%; */
 }
 
 .button:hover{
@@ -92,7 +80,6 @@ header{
 #homep{
     text-align: center;
     padding: 1% 0%;
-    /* margin-top: 5%; */
 }
 
 p{
@@ -114,6 +101,35 @@ p{
     width: 25%;
 }
 
+/* about */
+#top{
+    display: flex;
+    align-items: flex-end;
+}
+
+#about{
+    width: 38%;
+    position: relative;
+    left: -10px;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    
+}
+
+.pics{
+    width: 25%;
+    margin: 3%;
+}
+
+.pics2{
+    width: 20%;
+    margin: 0% 3%;
+    max-height: 75%;
+}
+
 /*pg 2*/
 section{
     display: flex;
@@ -122,9 +138,6 @@ section{
     text-align: center;
     width: 80%;
     flex-wrap: wrap;
-
-    /* background-color: lightblue;
-    border: 3px solid grey; */
 }
 
 .subtitle{
@@ -172,8 +185,6 @@ iframe{
     width: 80%;
     flex-wrap: wrap;
     align-items: center;
-    /* background-color: white;
-    border: 3px solid grey; */
 }
 
 #ad{
@@ -202,12 +213,10 @@ iframe{
 
 #sleep{
     display: flex;
-    /* align-items: center; */
 }
 
 #app{
     display: flex;
     margin-top: 20%;
-    /* align-items: center; */
 }
 
