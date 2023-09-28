@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    
     box-sizing: border-box;
 }
 
@@ -116,7 +115,6 @@ p{
 .mid{
     display: flex;
     align-items: center;
-    
 }
 
 .pics{
